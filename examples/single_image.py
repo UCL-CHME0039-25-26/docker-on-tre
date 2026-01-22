@@ -22,7 +22,7 @@ with torch.no_grad():
 
 # 5. Convert to probabilities and labels
 probs = torch.softmax(logits, dim=1)
-top5 = probs.topk(20)
+top5 = probs.topk(5)
 
 categories = weights.meta["categories"]
 for score, idx in zip(top5.values[0], top5.indices[0]):
