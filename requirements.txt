@@ -1,0 +1,38 @@
+# Core
+jupyter
+streamlit==1.52.2
+
+# Data Science
+pandas==2.3.3
+numpy==2.1.2
+scipy==1.16.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.5.1
+
+# Medical Imaging
+pydicom==3.0.1
+opencv-python-headless==4.12.0.88
+scikit-image==0.26.0
+SimpleITK==2.5.3
+monai==1.5.1
+pillow==10.2.0
+python-gdcm==3.2.2
+pylibjpeg==2.1.0
+pylibjpeg-libjpeg==2.3.0
+pylibjpeg-openjpeg==2.5.0
+pylibjpeg-rle==2.2.0
+segment-anything==1.0
+
+
+# NLP
+nltk==3.9.2
+spacy==3.8.11
+transformers==4.57.3
+huggingface-hub==0.36.0
+
+# Deep Learning
+torch==2.9.1+cu130
+torchvision==0.24.1+cu130
+torchaudio==2.9.1+cu130
