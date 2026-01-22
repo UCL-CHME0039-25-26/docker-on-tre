@@ -210,6 +210,23 @@ python single_image.py
 
 ---
 
+### 8. GPU enabled run in TRE
+
+```bash
+docker run -it --rm --gpus all -v .:/app:Z -v ./data:/app/data:Z chme0039-pytorch-basic:1.4 bash
+ipython
+```
+
+Inside ipython, run
+```ipython
+import torch
+torch.cuda.is_available()
+```
+
+The result should be True for GPU enabled instances where the docker GPU passthrough is working.
+
+---
+
 ## Key Takeaways
 
 - Docker enables **reproducible, portable research environments**
