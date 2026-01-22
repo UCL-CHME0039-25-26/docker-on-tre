@@ -12,3 +12,6 @@ services:
     volumes:
       - .:/app:Z
       - ./data:/app/data:Z
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
