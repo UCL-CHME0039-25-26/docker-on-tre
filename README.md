@@ -140,6 +140,8 @@ curl -Lo docker-compose https://github.com/docker/compose/releases/download/v2.2
 
 ## Part 2 — Working in the Remote Air-Gapped TRE
 
+These steps are performed **on [UCL TRE](https://tre.arc.ucl.ac.uk)**.
+
 ### 1. Upload files to the TRE
 
 - `chme0039-pytorch-basic-repo.tar.gz`
