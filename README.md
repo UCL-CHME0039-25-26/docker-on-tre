@@ -150,13 +150,13 @@ These steps are performed **on [UCL TRE](https://tre.arc.ucl.ac.uk)**.
 
 ---
 
-### 2. Open a TRE terminal and prepare workspace
+### 2. Open a TRE terminal and prepare workspace (creates a new directory called chme0039, copy ingressed files into the new directory)
 
 ```bash
 sudo su
 cd
 mkdir -p chme0039
-cp /shared/inbound/<ucl-id>/* ~/chme0039/
+cp /shared/inbound/<ucl-id>/* chme0039/
 cd chme0039
 ```
 
