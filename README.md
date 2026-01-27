@@ -108,7 +108,7 @@ python single_image.py
 ### 7. Package the repository source code at the host machine
 
 ```bash
-cd ../
+cd ../../
 tar -czvf chme0039-pytorch-basic-repo.tar.gz docker-on-tre
 ```
 
@@ -125,7 +125,7 @@ docker images
 ### 9. Export the Docker image
 
 ```bash
-docker save -o chme0039-pytorch-basic-v1.3.tar chme0039-pytorch-basic:1.3
+docker save -o chme0039-pytorch-basic-v1.4.tar chme0039-pytorch-basic:1.4
 ```
 
 ---
@@ -145,7 +145,7 @@ These steps are performed **on [UCL TRE](https://tre.arc.ucl.ac.uk)**.
 ### 1. Upload files to the TRE
 
 - `chme0039-pytorch-basic-repo.tar.gz`
-- `chme0039-pytorch-basic-v1.3.tar`
+- `chme0039-pytorch-basic-v1.4.tar`
 - `docker-compose`
 
 ---
@@ -166,7 +166,7 @@ cd chme0039
 
 ```bash
 tar -zxvf chme0039-pytorch-basic-repo.tar.gz
-docker load -i chme0039-pytorch-basic-v1.3.tar
+docker load -i chme0039-pytorch-basic-v1.4.tar
 ```
 
 ---
