@@ -184,7 +184,8 @@ mv docker-compose ~/.docker/cli-plugins/
 ### 5. Start services
 
 ```bash
-cd chme0039-pytorch-basic
+cd docker-on-tre
+systemctl start podman
 docker compose up -d
 ```
 
